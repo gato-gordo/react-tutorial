@@ -46,17 +46,15 @@
 
 	'use strict';
 
-	var _react = __webpack_require__(1);
+	// main.js
+	var React = __webpack_require__(1);
+	var ReactDOM = __webpack_require__(158);
 
-	var _react2 = _interopRequireDefault(_react);
-
-	var _reactDom = __webpack_require__(158);
-
-	var _reactDom2 = _interopRequireDefault(_reactDom);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	_reactDom2.default.render('Hello, World', document.getElementById('example'));
+	ReactDOM.render(React.createElement(
+	  'h1',
+	  null,
+	  'Hello, world!'
+	), document.getElementById('example'));
 
 /***/ },
 /* 1 */
